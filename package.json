@@ -1,0 +1,27 @@
+{
+  "name": "zitz.ch",
+  "version": "1.0.0",
+  "description": "Personal Website of Bernard Zitz",
+  "main": "index.js",
+  "scripts": {
+    "dev": "parcel src/index.html",
+    "build": "parcel build src/index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/caillou/zitz.ch.git"
+  },
+  "author": "Bernhard Zitz <bernhard@zitz.ch>",
+  "license": "GPL-3.0-or-later",
+  "bugs": {
+    "url": "https://github.com/caillou/zitz.ch/issues"
+  },
+  "homepage": "https://github.com/caillou/zitz.ch#readme",
+  "dependencies": {
+    "parcel-bundler": "^1.12.5"
+  },
+  "devDependencies": {
+    "prettier": "2.4.1"
+  }
+}
